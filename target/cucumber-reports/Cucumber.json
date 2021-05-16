@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": ": Sign in to automation practise home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5910013000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on automation prictise login page",
+            "match": {
+              "location": "AutomationPractiseStepdef.i_am_on_automation_prictise_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on Sign in",
+            "match": {
+              "location": "AutomationPractiseStepdef.click_on_Sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigated to Authenticationpage",
+            "match": {
+              "location": "AutomationPractiseStepdef.navigated_to_Authenticationpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1429800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "provided userName \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userName",
+                  "offset": 19
+                }
+              ],
+              "location": "AutomationPractiseStepdef.provided_userName(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Provided password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 19
+                }
+              ],
+              "location": "AutomationPractiseStepdef.provided_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicked on Sign in button",
+            "match": {
+              "location": "AutomationPractiseStepdef.clicked_on_Sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578749700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "navidagated to home page",
+            "match": {
+              "location": "AutomationPractiseStepdef.navidagated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Order TShirt and verify order history",
+        "description": "Given: I am automation prictise home page\nThen: Choosen T-SHIRTS tab\nThen: Selected T-Shirt from search results\nAnd: Added to cart shoosen T-SHIRTS\nThen: Navigated to proceed to check out\nAnd: Clicked on proceed to checkout",
+        "id": "automation-practise;order-tshirt-and-verify-order-history",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Automation practise",
+    "description": "",
+    "id": "automation-practise",
+    "keyword": "Feature",
+    "uri": "practise.feature"
+  }
+]
